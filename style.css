@@ -1,0 +1,83 @@
+header {
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.nav li {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.nav {
+    padding-left: 15px;
+}
+
+.lists {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: left;
+}
+
+
+.list-ol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.list-ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+    color: rgb(33, 165, 206);
+    margin-bottom: 2px;
+}
+
+#conteudo {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+
+p {
+    display: flex;
+    align-items: center;
+    width: 550px;
+    text-align: justify;
+}
+
+table tr td {
+    border: 1px solid black
+}
+
+table {
+    border: 1px solid black
+}
+
+table caption {
+    border: 1px solid black
+}
+
+.config {
+    display: flex;
+    justify-content: center;
+}
+  
+  
+  #rodape {
+    background-color:rgb(98, 146, 170);
+  }
